@@ -11,12 +11,13 @@ type GStrRandomCod struct {
 }
 
 // New Disponibiliza uma nova instância da estrutura GStrRandomCod
-func New(mSeed int64, rangeCode int) *GStrRandomCod {
+func NewGStrRandomCod(mSeed int64, rangeCode int) *GStrRandomCod {
 
 	return &GStrRandomCod{
 		Seed:     mSeed,
 		RangeCod: rangeCode,
 	}
+
 }
 
 // Init Inicializa recursos internos necessários ao processamento
