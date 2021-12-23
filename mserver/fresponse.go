@@ -5,7 +5,7 @@ type KeyResponse string
 
 // ImpResponse
 type ImpResponse interface {
-	AssembyResponse() interface{}
+	AssemblyResponse() interface{}
 }
 
 // FacResponse
