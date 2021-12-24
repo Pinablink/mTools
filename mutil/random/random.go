@@ -1,4 +1,4 @@
-package mutil
+package random
 
 import (
 	"math/rand"
